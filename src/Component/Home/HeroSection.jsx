@@ -24,13 +24,13 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 pt-2">
             <Link
-              to="/get-started"
+              to="/"
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-md shadow transition duration-300"
             >
               Get Started
             </Link>
             <Link
-              to="/demo"
+              to="/"
               className="border border-blue-600 text-blue-600 hover:bg-blue-50 dark:hover:bg-gray-800 dark:text-blue-400 font-semibold px-6 py-3 rounded-md transition duration-300"
             >
               Watch Demo
